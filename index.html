@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Pando – Digitize deliveries to optimize transaction costs</title>
+  </head>
+  <body>
+
+<div class="container">
+   <div class="topnav"> 
+
+        <div class="topnav2">  
+          <img src="logo.svg" width="115" height="40">
+        </div>
+    
+        <div class="topnav1"> 
+          <a class="active" href="index.html">HOME</a>
+        </div>
+        
+          <a class="one" href="platform.html">PLATFORM</a>
+      
+        <div class="dropdown">
+          <button class="dropbtn">INDUSTRIES
+            <i class="fa fa-caret-down"></i>
+          </button>
+        
+        <div class="dropdown-content">
+            <a class="one" href="fastmoving.html">Fast Moving Consumer Goods (FMCG)</a> <br>
+            <a class="one" href="cement.html">Cement</a> <br>
+            <a class="one" href="tyre.html">Tyre</a> <br>
+          
+            <a href="mailto:hi@pando.in"> For other industries get in touch at 
+              <b> hi@pando.in </b></a>
+        </div>
+        </div> 
+            <a class="one" href="pricing.html">INTEGRATION + PRICING</a>
+            <a class="one" href="about us.html">ABOUT US</a>
+            <a class="two" href="#">
+              <button class="button button1" type="button">CONTACT SALES</button></a>
+      
+  </div>
+      <div class="text1">
+        What you deliver is everything 
+      </div>
+
+      <div class="text2">
+         Intelligent freight can power growth, delight customers and increase margins. <br>
+         Pando makes freight intelligent
+      </div>
+      <div class="landing">
+        <img src="landing.svg" width="390" height="300">
+      </div>
+</div>
+    
+
+<div class="container-1">
+
+      <div class="text3-1">
+             <h2>The Future is Now</h2> <br>
+      <div class="text3-2"> 
+            Digital, customer - centric networks will <br> 
+            make or break market leaders.
+      </div>
+      </div>
+
+   <div id="main1">
+
+      <div class="i1">
+      <a href="https://www.dtnext.in/News/Business/2018/10/16033406/1092275/Pando-aims-to-increase-efficiencies-in-Indias-USD-.vpf" target="_blank" style = "text-decoration:none;" class="abc">
+        &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  Increase <br>
+        &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  efficiencies in <br>
+        &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  the delivery <br>
+        &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  ecosystem </a> 
+      </div>
+
+
+    <div class="i1">
+      <a href="https://www.youtube.com/embed/AJ8oyQsoBpw" target="_blank" style="text-decoration:none;"  class="abc">
+        &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; Sreekanth <br>
+        &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;Vancheeswaran <br>
+        &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;at Godrej</a> 
+    </div>
+
+
+    <div class="i1">
+      <a href="http://www.businessworld.in/article/The-Future-Of-Deliveries-Is-Digital/19-10-2018-162386/" target="_blank" style = "text-decoration:none;"  class="abc">
+        &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp; Future of <br>
+        &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp;  deliveries is <br>
+        &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp;  digital</a> 
+    </div>
+  </div>
+
+
+         <div class="i1-img"><img src="sreekanth-godrej.png" width="100" height="110" ></div>
+         <div class="i1-img1"><img src="dtnextimg.svg" width="100" height="110" ></div>
+         <div class="i1-img2"><img src="bwimg.svg" width="100" height="110" ></div>
+</div>
+
+
+
+<div class="container-2">
+
+    
+       <div class="slideleft-img">
+           <img src="slideleftimg1.svg" width="350" height="600">
+       </div>
+       <div class="slider-right">
+            <div class="slideright-img"><img src="sliderightimg2.svg" width="350" height="600"></div>
+            <div class="right-img"><img src="rightside-image.svg" width="130" height="200"></div> 
+       </div>
+      
+
+  <div class="slidershow-middle"> 
+
+          <div class="mySlides fade">
+            <img src="slide1.svg" width="550" height="400">
+          </div>
+
+          <div class="mySlides fade">
+            <img src="slide2.png" width="550" height="400">
+          </div>
+
+          <div class="mySlides fade">
+            <img src="slide3.svg" width="550" height="400">
+          </div>
+        
+  </div>
+  <br>
+       <div style="text-align:center">
+           <span class="bar" onclick="currentSlide(1)"></span> 
+           <span class="bar" onclick="currentSlide(2)"></span> 
+           <span class="bar" onclick="currentSlide(3)"></span> 
+       </div>
+  
+  <script>
+     var slideIndex = 1;
+     showSlides(slideIndex);
+  
+     function plusSlides(n) {
+      showSlides(slideIndex += n);
+     }
+  
+     function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+  
+    function showSlides(n) {
+      var i;
+
+      var slides = document.getElementsByClassName("mySlides");
+      var bars = document.getElementsByClassName("bar");
+     
+      if (n > slides.length) {slideIndex = 1}    
+
+      if (n < 1) {slideIndex = slides.length}
+
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+    }
+      for (i = 0; i < bars.length; i++) {
+        bars[i].className = bars[i].className.replace(" active", "");
+    }
+        slides[slideIndex-1].style.display = "block";  
+        bars[slideIndex-1].className += " active";
+    }
+  </script>
+       
+       
+       <div class="button-c2">
+        <a href="platform.html"><button class="button button2" type="button">REALLY QUICK LOOK</button></a>
+       </div>
+
+
+        <div class="c2-text">
+             <div class="c2-t1">   Optimize Cost + SLA </div> <br>
+              Reduce  freight  through intelligent load,  route, cost, fitment and  SLA <br>
+              optimization.
+        </div>
+</div>
+</div>
+
+
+<div class="slidecontainer2">
+
+  <div class="sh2">Transforming freight for million-dollar businesses </div>
+
+   
+  <div class="slideshow2-container2">
+
+    <div class="myslides2 fade2">
+        <div class="si1"><img src="border.svg"  width="700px" height="260px"></div>
+        <div class="st1">
+          <p>We decided to digitize our supply chain to both sustain and power our growth. <br>
+            Pando is helping us do this and completely resolving all problems and adding <br>
+            value.</p> <br>
+          <p> <strong>Ashok Kumar, Supply Chain Director, Britannia Industries</strong></p>
+          <div class="button-sc2">
+            <a href="https://youtu.be/j1gKAZPkI5M" style = "text-decoration:none;"  ><button class="button buttonsc2" type="button">SEE TO BELIEVE</button></a>
+           </div>
+        </div>
+        <div class="sp1"><img src="britannia-ashok.png" width="180" height="180"></div>
+    </div>
+
+
+    <div class="myslides2 fade2">
+      <div class="si1"><img src="border.svg"  width="700px" height="260px"></div>
+      <div class="st1">
+        <p>Pando brings unprecedented visibility and transparency into our operations. <br>
+           Every factory, depot, and warehouse and every transporter now operates in <br>
+           the same way, enabling realtime optimization and visibility of KPI's. No other <br>
+           platform is able to deliver as much value in this space!</p> <br>
+        <p><strong>Tankeshwar Bhaishya, Head of Supply Chain, Signify</strong></p>
+      </div>
+      <div class="sp2"><img src="Tankeswar-Philips.png" width="180" height="180"></div>
+  </div>
+
+
+    <div class="myslides2 fade2">
+      <div class="si1"><img src="border.svg"  width="700px" height="260px"></div>
+      <div class="st1">
+        <p>We evaluated multiple platforms to digitize our deliveries - Pando emerged as <br>
+          the most effective, they look at our operations as a network, rather than as <br>
+          silos. We are expecting significant cost savings &amp; SLA improvements with <br>
+          Pando. Strongly recommend partnering with them!</p> <br>
+        <p><strong>Udayraj Prabhu, EVP Business Process Transformation, Marico</strong></p>
+      </div>
+     <div class="sp2"><img src="udayraj-marico.png" width="180" height="180"></div>
+   </div>
+
+    
+    <div class="myslides2 fade2">
+      <div class="si1"><img src="border.svg"  width="700px" height="260px"></div>
+        <div class="st2">
+            <p>At Tata Chemicals, Consumer Products Business, our focus is digital <br>
+            transformation and Pando has the best mix of technology and people to do <br>
+            this. Pando Delivery team has business understanding & in consultation with <br>
+            our team, jointly perfects the business process. Their tight project <br>
+            management has helped us scale with ease. </p><br>
+            <strong>Suchindra Khaidem, Head-Digital Transformation, <br> Tata Chemicals, Consumer Products Business</strong>
+        </div>
+      <div class="sp2"><img src="suchindra-tcl.png" width="180" height="180"></div>
+    </div>
+
+  </div>
+  
+  
+ <br>
+         <div style="text-align:center">
+            <span class="bar2" onclick="currentslide(1)"></span> 
+            <span class="bar2" onclick="currentslide(2)"></span> 
+            <span class="bar2" onclick="currentslide(3)"></span>
+            <span class="bar2" onclick="currentslide(4)"></span> 
+         </div>
+  
+
+      <script>
+            var slideIndex2 = 1;
+            showslides2(slideIndex2);
+
+            function plusslides(n) {
+            showslides2(slideIndex2 += n);
+              }
+
+            function currentslide(n) {
+            showslides2(slideIndex2 = n);
+         }
+
+            function showslides2(n) {
+           var i;
+         var slides = document.getElementsByClassName("myslides2");
+         var bars = document.getElementsByClassName("bar2");
+         if (n > slides.length) {slideIndex2 = 1}    
+         if (n < 1) {slideIndex2 = slides.length}
+         for (i = 0; i < slides.length; i++) {
+         slides[i].style.display = "none";  
+            }
+        for (i = 0; i < bars.length; i++) {
+        bars[i].className = bars[i].className.replace(" active", "");
+             }
+        slides[slideIndex2-1].style.display = "block";  
+        bars[slideIndex2-1].className += " active";
+          }
+       </script>
+
+</div>
+
+
+<div class="slide3container3">
+
+  <div class="slidecontainer4">
+    <div class="slides">
+
+      <div class="slide">
+      <img src="ash-logo.png" alt="" /> 
+    </div>
+
+
+      <div class="slide">
+        <img src="bri-logo.png" alt="" /> 
+      </div>
+
+      <div class="slide">
+        <img src="sig-logo.png" alt="" /> 
+      </div>
+
+      <div class="slide">
+        <img src="mar-logo.png" alt="" /> 
+      </div>
+
+      <div class="slide">
+        <img src="tata-logo.png" alt="" /> 
+      </div>
+
+      <div class="slide">
+        <img src="orient-logo.png" alt="" /> 
+      </div>
+
+      <div class="slide">
+        <img src="nes-logo.png" alt="" /> 
+      </div>
+
+      <div class="slide">
+        <img src="srf-logo.png" alt="" /> 
+      </div>
+
+      <div class="slide">
+        <img src="jj-logo.png" alt="" /> 
+      </div>
+
+      <div class="slide">
+        <img src="sie-logo.png" alt="" /> 
+      </div>
+
+      <div class="slide">
+        <img src="sum-logo.png" alt="" /> 
+      </div>
+      
+    </div>
+    <div class="slide-controls">
+      <button id="prev-btn">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      <button id="next-btn">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+    </div>
+  </div>
+  <script src="main.js"></script>
+
+     
+  
+</div>
+
+<div class="container4">
+  
+    <div class="c4-heading">
+      Your network is your <i>networth</i>
+    </div>
+
+    <div class="c4-i">
+      <img src="4-design.svg" width="200" height="150">
+    </div>
+
+
+    <div class="row">
+        <div class="column">
+          <img src="satisfaction.svg"  style="width:100%">
+          <div class="c4h">Customer Satisfaction</div> <br>
+          <div class="c4text">  &nbsp; &nbsp; &nbsp; Predictive ETAs, Dispatch <br>
+            Notifications, Digital Documents 
+            &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; drive customer value</div>
+      </div>
+
+
+
+      <div class="column">
+        <img src="visibility.svg"  style="width:100%">
+        <div class="c4h">Complete Visibility</div>  <br>
+        <div class="c4text">Transparency through real-time <br>
+           &nbsp; data integration and analysis <br>
+           &nbsp; &nbsp; ensure proactive decision- <br>
+           &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  making.
+        </div>
+      </div>
+
+
+      <div class="column">     
+        <img src="effeciency.svg"  style="width:100%">
+        <div class="c4h">Freight Cost Reduction</div>  <br>
+        <div class="c4text"> &nbsp;Route, Load, Fitment, SLA and <br>
+          Scheduling Optimization that is <br>
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; practical on-ground.</div>
+      </div>
+
+
+       <div class="column">   
+        <img src="time.svg"  style="width:100%">
+        <div class="c4h">Efficiency and Control</div>  <br>
+        <div class="c4text"> &nbsp; Digitise workflows to reduce  <br>
+          &nbsp; &nbsp; &nbsp;  inefficiencies and ensure <br>
+          process excellence across your <br>
+          &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; network.</div>
+      </div>
+    </div>
+
+
+
+    <div class="c4-heading2">
+      Client vendor partners
+    </div>
+
+      
+  <div class="row2">
+
+       <div class="column2">
+        <img src="cv1.png"  style="width:100%">
+      </div>
+
+
+      <div class="column2">
+        <img src="cv2.png"  style="width:100%">
+      </div>
+
+      <div class="column2">
+        <img src="cv3.png"  style="width:100%">
+      </div>
+
+       <div class="column2">
+        <img src="cv4.png"  style="width:100%">
+      </div>
+
+       <div class="column2">
+        <img src="cv5.png"  style="width:100%">
+      </div>
+
+       <div class="column2">
+        <img src="cv6.png"  style="width:100%">
+      </div>
+    
+  </div>
+
+  <div class="row3">
+
+    <div class="column3">
+      <img src="cv7.png"  style="width:100%">
+    </div>
+
+    <div class="column3-i2">
+      <img src="cv8.png"  style="width:100%">
+    </div>
+
+    <div class="column3">
+      <img src="cv9.png"  style="width:100%">
+    </div>
+
+     <div class="column3">
+      <img src="cv10.png"  style="width:100%">
+    </div>
+
+     <div class="column3-i">
+      A network of over a  <br>
+      1000 transport <br>
+      partners
+    </div>
+
+     <div class="column3-i3">
+      <img src="cv12.svg"  style="width:100%">
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="container5">
+
+    <div class="txtc5">
+      Industry specific <br>
+      solutions, <br>
+      proven value — everytime
+      
+    </div>
+
+
+    <div class="row4">
+
+      <div class="column4i">
+        <a href="fastmoving.html" style = "text-decoration:none;">
+        <img src="FMCG.png"  style="width:100%"></a>
+        <div class="c5-t1">FMCG</div>
+      </div>
+
+      <div class="column4">
+        <a href="cement.html" style = "text-decoration:none;">
+        <img src="CEMENT.png"  style="width:100%"></a>
+        <div class="c5-t">CEMENT</div>
+      </div>
+
+      <div class="column4">
+        <a href="tyre.html" style = "text-decoration:none;">
+        <img src="TYRE.png"  style="width:100%"></a>
+        <div class="c5-t2">TYRE</div>
+      </div>
+
+       <div class="column4">
+        <img src="AUTOMOTIVE.png"  style="width:100%">
+        <div class="c5-t">AUTOMOTIVE</div>
+      </div>
+    </div>
+    
+    <div class="row5">
+
+      <div class="column5">
+        <img src="CPG.png"  style="width:100%">
+        <div class="c5-t3">CPG</div>
+      </div>
+
+      <div class="column5">
+        <img src="CHEMICALS.png"  style="width:100%">
+        <div class="c5-t">CHEMICALS</div>
+      </div>
+
+      <div class="column5">
+        <img src="PHARMA.png"  style="width:100%">
+        <div class="c5-t4">PHARMA</div>
+      </div>
+
+       <div class="column5">
+        <img src="3PL.png"  style="width:100%">
+        <div class="c5-t">3PL</div>
+      </div>
+    </div>
+  
+</div>
+
+
+
+
+<div class="container6">
+
+   <div class="helpful-links">
+       <div class="HL-heading">Helpful Links</div> <br><br>
+       
+        <a href="about us.html" style = "text-decoration:none;" class="hl">About us</a> <br><br>
+        <a href="mailto:hi@pando.in?Subject=Help%and%FAQ" style = "text-decoration:none;" class="hl">Help &FAQ</a> <br><br>
+        <a href="https://pando.darwinbox.com/ms/candidate/careers" target="_blank" style = "text-decoration:none;" class="hl">Careers</a> <br><br>
+        <a href="https://pando.in/privacy-policy.php" style = "text-decoration:none;" class="hl">Privacy Policy</a> 
+   </div>
+
+   <div class="contact-info">
+    <div class="ci-heading">Contact Info</div> <br>
+      <div class="c-i-1">Registered Address</div><br>
+      4, Ramakrishnapuram, <br>
+      Villivakkam,  <br>
+      Chennai,  <br>
+      600 049
+   </div>
+
+   
+
+<div class="form">
+   <div class="fname">Get started now</div> <br><br>
+
+  <form action="/action_page.php">
+    <label for="name">Name</label> <br> <br>
+    
+    <input type="text1"  name="firstname" required> <br> <br> <br>
+
+    <label for="email">Email</label> <br> <br>
+    <input type="text2" name="email"required> <br><br>
+  
+    <input type="sub" value="SAY YES TO CHANGE">
+  </form>
+</div>
+
+
+<div class="medium">
+  <a href="https://medium.com/pandocorp" target="_blank"><img src="medium.svg" width="30" height="30"></a>
+</div>
+
+<div class="linkedin">
+  <a href="https://www.linkedin.com/company/pandocorp-private-limited/" target="_blank"><img src="linkedin.svg" width="30" height="30"></a>
+</div>
+
+<div class="cr">
+  © 2021 All Rights Reserved PandoCorp Private Limited
+</div>
+
+</div>
+
+
+
+<div class="Sidenav">
+  <div id="mySidenav" class="sidenav">
+    <a href="#" id="Snav"><img src="img2.jpg" width="100" height="140"></a>
+</div>
+</div>
+
+
+  </body>
+  </html>
